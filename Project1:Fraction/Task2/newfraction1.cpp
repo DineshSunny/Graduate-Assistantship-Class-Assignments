@@ -1,5 +1,5 @@
 #include <iostream>
-#include "fraction.h"
+#include "newfraction1.h"
 using namespace std;
 
 // ====== MEMBER FUNCTIONS ======

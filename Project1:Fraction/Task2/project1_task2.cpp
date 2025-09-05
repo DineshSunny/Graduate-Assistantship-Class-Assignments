@@ -1,25 +1,38 @@
 #include <iostream>
-#include "fraction.h"
+#include "newfraction1.h"
 using namespace std;
 
 int main() {
-    Fraction f1(1, 2);  // 1/2
-    Fraction f2(3, 4);  // 3/4
+    Fraction f1, f2;
 
+    cout << "Enter the first fraction: numerator denominator\n";
+    int n1, d1;
+    cin >> n1 >> d1;
+    f1.setNumerator(n1);
+    f1.setDenominator(d1);
+
+    cout << "Enter the second fraction: numerator denominator \n";
+    int n2, d2;
+    cin >> n2 >> d2;
+    f2.setNumerator(n2);
+    f2.setDenominator(d2);
+
+    cout << "The two fractions entered are\n";
     cout << "f1 = "; f1.display();
     cout << "f2 = "; f2.display();
+    cout << "\nThe arithmetic operations on these two fractions:\n";
 
-    Fraction sum = add(f1, f2);
-    cout << "Sum (f1 + f2) = "; sum.display();
+    Fraction s = add(f1, f2);
+    cout << "f1 + f2 = "; s.display();
 
-    Fraction diff = subtract(f1, f2);
-    cout << "Difference (f1 - f2) = "; diff.display();
+    Fraction m = subtract(f1, f2);
+    cout << "f1 - f2 = "; m.display();
 
-    Fraction prod = multiply(f1, f2);
-    cout << "Product (f1 * f2) = "; prod.display();
+    Fraction p = multiply(f1, f2);
+    cout << "f1 * f2 = "; p.display();
 
-    Fraction quot = divide(f1, f2);
-    cout << "Quotient (f1 / f2) = "; quot.display();
+    Fraction q = divide(f1, f2);
+    cout << "f1 / f2 = "; q.display();
 
     return 0;
 }
