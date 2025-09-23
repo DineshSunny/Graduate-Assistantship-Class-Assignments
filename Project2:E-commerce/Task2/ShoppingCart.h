@@ -1,11 +1,21 @@
+/**
+ * ShoppingCart.h
+ * Assignment 2 - E-commerce
+ * Derived from Bag<Item>, tracks items and total price.
+ */
+
 #ifndef SHOPPINGCART_H
 #define SHOPPINGCART_H
 
 #include "Bag.h"
-#include "Item.h"
+#include "../Task1/Item.h"
 #include <iostream>
 using namespace std;
 
+/**
+ * @class ShoppingCart
+ * Represents a shopping cart with items and total price.
+ */
 class ShoppingCart : public Bag<Item> {
 private:
     double totalPrice;
@@ -23,6 +33,5 @@ public:
     void showCart() const;
 };
 
-// required for GitHub compile rule
 #include "ShoppingCart.cpp"
 #endif

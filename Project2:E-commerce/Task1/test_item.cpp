@@ -1,36 +1,36 @@
 #include "Item.h"
 #include <iostream>
+#include <vector>
+#include <iomanip>
 using namespace std;
 
 int main() {
-    // Test constructors
-    Item item1; // default constructor
-    Item item2("T-shirt", 19.99, 2); // parameterized constructor
+    cout << "=== Testing Item Class (Task 1) ===\n";
 
-    // Test setters
-    item1.setName("Sweater");
-    item1.setUnitPrice(39.99);
-    item1.setQuantity(3);
+    vector<Item> items;   // temporary cart-like list
+    char cont = 'y';
 
-    // Test getters
-    cout << "Item1: " << item1.getName() << " $" << item1.getUnitPrice() 
-         << " Qty: " << item1.getQuantity() << endl;
+    while (cont == 'y') {
+        Item newItem;
+        cout << "Enter item (name unitPrice quantity): ";
+        cin >> newItem;
 
-    cout << "Item2: " << item2.getName() << " $" << item2.getUnitPrice() 
-         << " Qty: " << item2.getQuantity() << endl;
+        items.push_back(newItem);
 
-    // Test equality
-    if (item1 == item2)
-        cout << "Item1 and Item2 are equal." << endl;
-    else
-        cout << "Item1 and Item2 are NOT equal." << endl;
+        cout << "\nCurrent Items:\n";
+        cout << left << setw(20) << "Name"
+             << setw(15) << "Unit Price"
+             << "Quantity\n";
+        for (auto &it : items) {
+            cout << left << setw(20) << it.getName()
+                 << "$" << setw(14) << it.getUnitPrice()
+                 << it.getQuantity() << "\n";
+        }
 
-    // Test stream operators
-    cout << "\nEnter an item (name price qty): ";
-    Item item3;
-    cin >> item3;
+        cout << "\nAdd another item? (y/n): ";
+        cin >> cont;
+    }
 
-    cout << "You entered: " << item3 << endl;
-
+    cout << "\n=== End of Task 1 Test ===\n";
     return 0;
 }

@@ -4,6 +4,10 @@
 #include <vector>
 using namespace std;
 
+/**
+ * @class Bag
+ * A simple container class template for holding items.
+ */
 template <class T>
 class Bag {
 protected:

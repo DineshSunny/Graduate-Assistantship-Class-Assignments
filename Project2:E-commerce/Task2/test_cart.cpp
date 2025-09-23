@@ -5,7 +5,8 @@ using namespace std;
 int main() {
     ShoppingCart cart;
 
-    // Test add
+    cout << "Testing ShoppingCart class...\n";
+
     Item t1("T-shirt", 19.99, 2);
     Item s1("Sweater", 39.99, 1);
     cart.add(t1);
@@ -14,38 +15,28 @@ int main() {
     cout << "After adding items:\n";
     cart.showCart();
 
-    // Test remove (success case)
+    // Remove existing
     if (cart.remove(s1))
         cout << "Sweater removed successfully.\n";
-    else
-        cout << "Sweater not found.\n";
 
-    // Test remove (fail case)
+    // Remove non-existing
     Item fake("Hat", 9.99, 1);
-    if (cart.remove(fake))
-        cout << "Hat removed.\n";
-    else
+    if (!cart.remove(fake))
         cout << "Hat not found in cart.\n";
 
-    // Test changeQuantity (valid)
+    // Change quantity valid
     if (cart.changeQuantity("T-shirt", 19.99, 2, 5))
         cout << "Quantity updated successfully.\n";
-    else
-        cout << "Failed to update quantity.\n";
 
-    // Test changeQuantity (invalid quantity)
-    if (cart.changeQuantity("T-shirt", 19.99, 5, -3))
-        cout << "Quantity updated.\n";
-    else
-        cout << "Invalid new quantity.\n";
+    // Change quantity invalid
+    if (!cart.changeQuantity("T-shirt", 19.99, 5, -3))
+        cout << "Invalid quantity rejected.\n";
 
-    // Show final cart
-    cout << "\nFinal cart contents:\n";
+    cout << "\nFinal cart:\n";
     cart.showCart();
 
-    // Test clear
     cart.clear();
-    cout << "\nAfter clearing cart:\n";
+    cout << "After clearing cart:\n";
     cart.showCart();
 
     return 0;
