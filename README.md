@@ -1,109 +1,56 @@
-# Graduate-Assistantship-Class-Assignments
+# Graduate Assistant – St. Cloud State University (CIS Department)
 
-Fraction Class Project
-📌 Overview
+## 📌 Overview
+This repository documents my work, learning, and contributions as a **Graduate Assistant (GA)** at the Department of Computing, Informatics & Data Science (CIS), St. Cloud State University.  
+As part of my GAship, I support faculty, assist students with coursework, and contribute to research and technical projects.
 
-This project is divided into three tasks, each extending the functionality of a C++ Fraction class.
-It demonstrates fundamental object-oriented programming concepts such as class design, separate compilation, non-member functions, operator overloading, and documentation using Javadoc/Doxygen style comments.
+---
 
-📝 Tasks
-Task 1
+## 🎓 Role & Responsibilities
+- Assisted **faculty members** (Prof. Jie Meichsner, Prof. Anda, Prof. Herath, etc.) with teaching and grading in:
+  - CSCI 604: Advanced Software Engineering  
+  - CSCI 620: Algorithms and Complexity  
+  - CSCI 540: Operating Systems  
+  - CSCI 595: Special Topics in Computer Science  
 
-Implement a basic Fraction class (fraction.h, fraction.cpp).
+- Supported **students** in:
+  - GitHub setup and version control best practices  
+  - Debugging assignments and lab submissions  
+  - Guidance on coding standards and documentation  
 
-Includes:
+- Helped maintain **course resources**:
+  - Example code repositories  
+  - Assignment templates and solutions  
+  - Lab instructions and walkthroughs  
 
-Constructor with default arguments
+---
 
-Setter and getter functions
+## 🛠️ Skills & Tools Used
+- **Programming Languages:** Python, C++, Java, SQL  
+- **Version Control:** Git & GitHub (class repos and student projects)  
+- **DevOps Tools:** UNIX/Linux environments, shell scripting, Docker basics  
+- **Teaching Support:** Code review, debugging sessions, office hours  
 
-Display function
+---
 
-Test program: project1_task1.cpp
+## 📂 Repository Purpose
+This repo will serve as a space to:
+1. Document GA responsibilities and achievements  
+2. Share sample teaching materials, guides, and resources (where permitted)  
+3. Track progress in academic and technical contributions  
 
-Task 2
+---
 
-Extend the Fraction class with non-member functions (newfraction1.h, newfraction1.cpp):
+## ✨ Highlights
+- Tutored students one-on-one and in groups on **GitHub usage**, including branching, pull requests, and resolving merge conflicts  
+- Assisted in **classroom technical setups** and troubleshooting issues with compilers, IDEs, and servers  
+- Collaborated with professors to improve **student onboarding** for advanced computer science courses  
 
-add(f1, f2)
+---
 
-subtract(f1, f2)
+## 📫 Contact
+Feel free to connect with me:  
+- **LinkedIn:** [Dinesh Seveti](https://www.linkedin.com/in/)  
+- **GitHub:** [YourUsername](https://github.com/YourUsername)  
 
-multiply(f1, f2)
-
-divide(f1, f2)
-
-No simplification of fractions is required.
-
-Interactive test program: project1_task2.cpp
-
-Task 3
-
-Redo Task 2 using operator overloading (newfraction2.h, newfraction2.cpp):
-
-+ and - as member functions
-
-* and / as non-member functions
-
-<< (output) as non-member function
-
->> (input) as a friend function
-
-Test program: project1_task3.cpp
-
-📂 File Structure
-Project1-Fraction/
-│
-├── Task1/
-│   ├── fraction.h
-│   ├── fraction.cpp
-│   └── project1_task1.cpp
-│
-├── Task2/
-│   ├── newfraction1.h
-│   ├── newfraction1.cpp
-│   └── project1_task2.cpp
-│
-├── Task3/
-│   ├── newfraction2.h
-│   ├── newfraction2.cpp
-│   └── project1_task3.cpp
-│
-└── README.md
-
-⚙️ Compilation & Execution
-Task 1
-g++ fraction.cpp project1_task1.cpp -o task1
-./task1
-
-Task 2
-g++ newfraction1.cpp project1_task2.cpp -o task2
-./task2
-
-Task 3
-g++ newfraction2.cpp project1_task3.cpp -o task3
-./task3
-
-📖 Example Run (Task 2 & Task 3)
-Enter the first fraction: numerator denominator
-3 5
-Enter the second fraction: numerator denominator
-2 3
-
-The two fractions entered are
-f1 = 3/5
-f2 = 2/3
-
-The arithmetic operations on these two fractions:
-f1 + f2 = 19/15
-f1 - f2 = -1/15
-f1 * f2 = 6/15
-f1 / f2 = 9/10
-
-👨‍💻 Author
-
-Name: Dinesh Seveti
-
-StarID: <am9663gn>
-
-Course: Graduate Assistantship – CSCI Assignments
+---
