@@ -1,0 +1,33 @@
+Script started on 2025-11-10 12:36:27+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="219" LINES="20"]
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project7 [0;36m([1;31mmain[0;36m) [0m$ [7mg++ -std=c++17 FrontListHasATester.cpp -o hasa[27m
+[7mg++ -std=c++17 FrontListIsATester.cpp -o isa[27m
+[7mg++ -std=c++17 FrontListAsATester.cpp -o asa[27m
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ -std=c++17 FrontListHasATester.cpp -o hasa
+g++ -std=c++17 FrontListIsATester.cpp -o isa
+g++ -std=c++17 FrontListAsATester.cpp -o asa
+[A
+[?2004l[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project7 [0;36m([1;31mmain[0;36m) [0m$ [7m./hasa[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hasa
+[A
+[?2004l=== Testing FrontListHasA ===
+Front: 30
+Front after remove: 20
+Empty? Yes
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project7 [0;36m([1;31mmain[0;36m) [0m$ [7m./isa[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./isa
+[A
+[?2004l=== Testing FrontListIsA ===
+Front: Python
+Front after remove: Java
+Empty? Yes
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project7 [0;36m([1;31mmain[0;36m) [0m$ [7m./asa[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./asa
+[A
+[?2004l=== Testing FrontListAsA ===
+Front: C
+Front after remove: B
+Empty? Yes
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project7 [0;36m([1;31mmain[0;36m) [0m$ [?2004l
+exit
+
+Script done on 2025-11-10 12:36:55+00:00 [COMMAND_EXIT_CODE="0"]
